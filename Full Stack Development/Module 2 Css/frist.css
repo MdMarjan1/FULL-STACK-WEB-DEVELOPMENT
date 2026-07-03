@@ -3,3 +3,16 @@ h2{
     background-color: blueviolet;
     padding: 2rem;
 }
+
+#pfg1{
+    color: chocolate;
+    font-size: 1.5rem;
+    background-color: burlywood;
+}
+
+#pfg2{
+    color: blue;
+    font-size: 2rem;
+    background-color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
