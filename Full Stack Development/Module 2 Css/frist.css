@@ -16,3 +16,10 @@ h2{
     background-color: chartreuse;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+ul, ol, .hos{
+    background-color: cadetblue;
+    color: bisque;
+    padding: 1rem;
+}
+
