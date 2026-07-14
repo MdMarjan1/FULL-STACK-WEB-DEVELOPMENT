@@ -6,3 +6,20 @@ console.log(hs+hj);
 let a1 = 'marjan'
 let a2 = 'islam'
 console.log(a1+' '+a2)
+
+/*
+Math topic in JS
+
+1.
+
+
+
+
+
+
+
+
+
+
+
+*/ 
