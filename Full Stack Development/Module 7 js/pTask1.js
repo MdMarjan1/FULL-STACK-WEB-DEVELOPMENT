@@ -111,7 +111,7 @@ let dreamJob = 'Full-Stack Developer'
 let yearsGoal = 1
 let isLearningJS = true;
 
-console.log('========================\n      MY PROFILE\n========================\n\n'+
+console.log('==========================\nMY PROFILE\n==========================\n\n'+
    'Name: '+fullName+'\n'+
    'Age: '+agE+'\n'+
    'Country: '+coUntry+'\n'+
@@ -119,6 +119,5 @@ console.log('========================\n      MY PROFILE\n=======================
    'Dream Job: '+dreamJob+'\n'+
    'Years to Reach Goal: '+yearsGoal+ '\n'+
    'Learning JavaScript: '+isLearningJS+ '\n'+
-   '\n========================'
-
+   '\n=========================='
 )
