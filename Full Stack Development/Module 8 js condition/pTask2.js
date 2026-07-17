@@ -26,6 +26,60 @@ console.log(comp4);  // true
 let price11 = 110
 let price12 = 90
 console.log('>',price11>price12); //true
+
 let price13 = 90
 let price14 = 900
 console.log('>',price13>price14); //false
+
+// ---------------------------------------
+
+let result1 ="5"
+let result2 =5
+console.log(result1==result2); //true
+
+let result3 ="5"
+let result4 =5
+console.log(result3===result4); //false
+
+// -----------------------------------------
+
+let isRaining = false
+if(isRaining){
+    console.log('Takean umbrella');
+}
+else{
+    console.log('No need for an umbrella');
+}
+
+// -----------------------------------------
+
+let sTock = 0
+if(sTock === 0){
+    console.log('Out of stock');
+}
+
+// -----------------------------------------
+
+let nu1 = 45
+if(nu1 >= 1){
+    console.log('Positive number');
+}
+else if(nu1 < 0){
+    console.log('Negative number');
+}
+else{
+    console.log('null/0');
+}
+
+// -----------------------------------
+
+let leapYear = 2006
+if(leapYear % 4 === 0){
+    console.log('this is LEAP YEAR');
+}
+else{
+    console.log('not Leap Year');
+}
+
+// -----------------------------------
+
