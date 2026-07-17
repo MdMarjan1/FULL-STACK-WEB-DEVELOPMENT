@@ -83,3 +83,40 @@ else{
 
 // -----------------------------------
 
+let sPeed = 85
+if(sPeed > 80){
+    console.log('Overspeeding');
+}
+else{
+    console.log('Normal speed');
+}
+
+// -----------------------------------
+
+let hasTicket = true
+let aGe = 20
+if(hasTicket && aGe>18){
+    console.log('Entry allowed');
+}
+else{
+    console.log('Not allowed');
+}
+
+// -----------------------------------
+
+let isHoliday = true
+let isWeekend = false
+if(isHoliday||isWeekend){
+    console.log('no work today');
+}
+
+// -----------------------------------
+
+let uSername = 'admin'
+let passWord = '123456'
+if(uSername==='admin' && passWord==='123456'){
+    console.log('Login successful');
+}
+else{
+    console.log('Access Denide');
+}
