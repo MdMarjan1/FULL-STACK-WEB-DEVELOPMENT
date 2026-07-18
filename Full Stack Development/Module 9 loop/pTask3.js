@@ -70,3 +70,65 @@ console.log(sus);
 
 //-------------------------------------
 
+for(let h=1; h<=50; h++){
+  if(h>30){
+    break;
+  }
+  console.log(h);
+}
+
+//-------------------------------------
+
+for(let k=1; k<=20; k++){
+  if(k%4==0){
+    continue
+  }
+  console.log(k);
+}
+
+//-------------------------------------
+
+let v=1
+do{
+  console.log(v);
+  v++
+}while(v<=5)
+
+let vg=1
+do{
+  console.log(vg);
+  vg++
+}while(vg>10)
+
+//-------------------------------------
+
+// foor loop
+for(let i=1; i<=5; i++){
+  console.log('forloop',i);
+}
+
+// while loop
+let q=1
+while(q<=5){
+  console.log('whileLoop',q);
+  q++
+}
+
+// do whileLoop
+let u=1
+do{
+  console.log('Do while loop',u);
+  u++
+}while(u<=5)
+
+//-------------------------------------
+
+for(let c=1; c<=100; c++){
+  if(c%5==0){
+    continue
+  }
+  if(c>40){
+    break
+  }
+  console.log(c);
+}
