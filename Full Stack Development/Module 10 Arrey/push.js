@@ -17,3 +17,11 @@ console.log(secondNumbers); //666
 
 console.log(fristNumber,secondNumbers); //787 666
 
+
+// Shift Unshift
+let frus = ['jam', 'mango', 'orange', 'Banana', 'brot']
+frus.shift() // remove jam
+console.log(frus); 
+frus.unshift('lemon') // add lemon
+console.log(frus);
+
