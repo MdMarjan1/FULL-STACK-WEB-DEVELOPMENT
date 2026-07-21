@@ -1,0 +1,3 @@
+let number = [ 11, 12, 13, 14, 15, 16, 17]
+let rev = number.reverse()
+console.log(rev);
