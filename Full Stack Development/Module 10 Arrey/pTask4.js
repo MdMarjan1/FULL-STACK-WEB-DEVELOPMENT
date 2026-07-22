@@ -131,3 +131,64 @@ for(let b=0; b<x14.length; b++){
     sum+=x14[b]
 }
 console.log(sum,'Arrey Sum'); //85
+
+// ------------------------------------
+//21
+let ab = [22, 33, 65, 79, 44, 65, 44, 22]
+let unq = []
+for(let yp=0; yp<ab.length; yp++){
+    if(!unq.includes(ab[yp])){
+        unq.push(ab[yp])
+    }
+}
+console.log(unq);
+
+// ------------------------------------
+//22
+let jnb = ['rifat', 56, 78, 'mango', 'apple', 23, 'yellow']
+let str = []
+let num = []
+for(let c=0; c<jnb.length; c++){
+    if(typeof jnb[c] === "number"){
+      num.push(jnb[c])
+      
+    }
+    else if(typeof jnb[c] === "string"){
+        str.push(jnb[c])
+       
+    }
+}
+console.log(num);
+console.log(str);
+
+// ------------------------------------
+//23
+let numbers = [25, 8, 42, 17, 3, 30];
+let lerg = numbers[0]
+let small = numbers[0]
+for(let h=0; h<numbers.length; h++){
+    if(numbers[h] > lerg){
+        lerg = numbers[h]
+       
+    }
+    if(numbers[h] < small){
+        small = numbers[h]
+        
+    }
+}
+ console.log(lerg);
+ console.log(small);
+
+// ------------------------------------
+//24
+let fst = [22, 33, 44, 55, 66, 77, 88]
+let dst = fst.shift().push()
+console.log(dst);
+
+
+// ------------------------------------
+//25
+let fst = [22, 33, 44, 55, 66, 77, 88]
+let ro = fst.shift()
+fst.push(ro)
+console.log(fst);
