@@ -188,7 +188,7 @@ console.log(dst);
 
 // ------------------------------------
 //25
-let fst = [22, 33, 44, 55, 66, 77, 88]
-let ro = fst.shift()
-fst.push(ro)
-console.log(fst);
+let fast = [22, 33, 44, 55, 66, 77, 88]
+let ro = fast.shift()
+fast.push(ro)
+console.log(fast);
