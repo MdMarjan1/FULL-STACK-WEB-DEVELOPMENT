@@ -4,7 +4,7 @@ for(let scor in scores){
     // console.log(scor, values);
 }
 
-// ------------------------------
+// --------------------------------
 
 let sum = 0
 for(let scr in scores){
@@ -12,5 +12,5 @@ for(let scr in scores){
     sum= sum+valu;
 }
 let totalValues = Object.values(scores).length
- let avg = sum / totalValues
- console.log(avg);
+let avg = sum / totalValues
+console.log(avg);
