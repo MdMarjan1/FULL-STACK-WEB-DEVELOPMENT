@@ -48,3 +48,34 @@ function cheakOPtion(student){
 
 const dd1 = cheakOPtion(adx)
 console.log(dd1);
+
+
+// ================================================
+
+
+function isTotal(number){
+    let sum = 0
+    for(let z1 of number){
+        sum+=z1
+    }
+    return sum
+}
+let arrsum =[50, 10, 30, 100, 90, 80]
+const dji = isTotal(arrsum)
+console.log("sum of arrey",dji);
+
+// =================================================
+
+function allEven(evos){
+    let x1 =[]
+    for(let ev of evos){
+        if(ev % 2 === 0){
+            x1.push(ev)
+        }
+    }
+    return x1
+}
+let evos=[11, 12, 22, 20, 55, 45, 46, 98]
+const collEven = allEven(evos)
+console.log(collEven);
+
