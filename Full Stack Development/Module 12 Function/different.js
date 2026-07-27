@@ -79,3 +79,8 @@ let evos=[11, 12, 22, 20, 55, 45, 46, 98]
 const collEven = allEven(evos)
 console.log(collEven);
 
+
+
+
+
+
