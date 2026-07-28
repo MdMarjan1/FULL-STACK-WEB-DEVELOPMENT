@@ -1,10 +1,12 @@
-
-let str = "programming Hero"
-let vowels ="aeiou"
-let count = 0
-for(let i of str){
-    if(vowels.includes(i)){
-        count++
+// vowel count with for of loop
+function isVowel(letter) {
+  let vowels = 'aeiou';
+  let count = 0;
+  for (let i of letter) {
+    if (vowels.includes(i)) {
+      count++;
     }
+  }
+  return count
 }
-console.log(count);
+console.log(isVowel('programming Hero'));
