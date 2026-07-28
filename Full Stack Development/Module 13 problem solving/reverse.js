@@ -6,3 +6,4 @@ function isReverse(word){
     return str
 }
 console.log(isReverse("marjan"));
+console.log(isReverse("NEW_JERSSY"));
