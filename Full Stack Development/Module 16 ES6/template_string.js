@@ -15,3 +15,27 @@ let z = `Frist name ${x} & Second name ${y}`
 console.log(z);
 
 // ================================
+
+let name = "Owker"
+let pis = 20
+let price = 500
+console.log(`hallo ${name}. Your bill is ${pis*price}`);
+
+// ================================
+
+function paymentConformation(name='student', bill=0){ 
+    let msg = `student name ${name}. 
+               your payment successful ${bill} done
+               now give tour admit card`;
+    return msg
+}
+console.log(paymentConformation("Marjan", 2500));
+console.log(paymentConformation());
+console.log(paymentConformation("Riad"));
+
+/*
+ if you dont set value in defualt peremater you can use variable under ${name ||"student"} this type code
+*/
+
+// ================================
+
