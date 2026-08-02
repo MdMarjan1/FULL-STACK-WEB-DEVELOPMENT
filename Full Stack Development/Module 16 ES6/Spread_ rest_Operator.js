@@ -47,7 +47,7 @@ console.log("answer",Student2);
 console.log("ans",student);
 
 // ================================
-
+// rest Oerator
 function suM(a,b,c,...restNUmmer){
     let sum = 0
     for(let num of restNUmmer){
