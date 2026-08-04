@@ -26,6 +26,5 @@ let a2 ={
         year: 2026
     }
 }
-
 const {price, brand, model:newModel, exam:{nam}} = a2
 console.log(price, brand, newModel, nam);
