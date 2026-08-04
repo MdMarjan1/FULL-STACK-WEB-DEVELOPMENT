@@ -82,7 +82,7 @@ console.log(pk);
 
 
 // freeze
-//no value change no edit no add
+//no value change no edit no add 
 let opk = {
     name: "SL abdul",
     bankId: 66564,
