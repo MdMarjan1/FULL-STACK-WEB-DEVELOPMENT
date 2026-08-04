@@ -1,3 +1,4 @@
+
 // arrow function syntex
 const isnam=(name)=>{
 
