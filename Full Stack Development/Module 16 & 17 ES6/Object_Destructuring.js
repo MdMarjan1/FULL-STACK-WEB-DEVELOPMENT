@@ -3,8 +3,8 @@ const student = {
     role: 56,
     age:23
 }
-// const {name, age:year} = student
-// console.log(name, year);
+const {name, age:year} = student
+console.log(name, year);
 
 // ================================
 
