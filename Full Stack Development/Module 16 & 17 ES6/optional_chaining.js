@@ -6,7 +6,7 @@ let Collage ={
         name: 'Selim khan',
         age: 59,
         skills:{
-            sub: 'Arts',
+            'ss ub': 'Arts',
             language: 'english',
             color: ['black', 'Orange', 'Blue', 'Red']
         }
@@ -18,10 +18,10 @@ let Collage2 ={
     subject: 'Science',
     shift: 'Evening',
     tacher: {
-        name: 'Roshid',
+        nam_e: 'Roshid',
         age: 59,
     }
 }
 
-console.log(Collage?.tacher?.skills?.sub,  Collage2?.tacher?.name);
-console.log(Collage?.tacher?.skills?.sub,  Collage2?.tacher?.color);
+console.log(Collage?.tacher?.skills?.['ss ub'],  Collage2?.tacher?.nam_e);
+console.log(Collage?.tacher?.skills?.['ss ub'],  Collage2?.tacher?.color);
