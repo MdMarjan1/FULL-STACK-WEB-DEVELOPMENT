@@ -1,5 +1,5 @@
 const  extractUserInfo = (socialApp) =>{
-    const {user:{name, age}, hobbies:firstHobby} = socialApp
+    const {user:{name, age}, hobbies:firstHobby} = socialApp // object Destructuring
     if(!name){
         return "Invalid"
     }
