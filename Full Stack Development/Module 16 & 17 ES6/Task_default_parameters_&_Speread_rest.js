@@ -9,5 +9,5 @@ const Calculator = (number, ...restNumber) =>{ // rest Operator
 } 
 
 console.log(Calculator(10, 500, 300, 200));
-console.log(Calculator(5, 500, 700, 900, 1000));
+console.log(Calculator(15, 500, 700, 900, 1000));
 
