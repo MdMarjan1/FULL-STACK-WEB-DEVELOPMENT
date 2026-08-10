@@ -1,15 +1,15 @@
-const bonusScore = (numArr) =>{
-    if(!Array.isArray(numArr) || numArr.length === 0){
+const bonusScore = (scores) =>{
+    if(!Array.isArray(scores) || scores.length === 0){
         return "Invalid"
     }
 
-    for(let i of numArr){
+    for(let i of scores){
         if(typeof i !== "number"){
             return "Invalid"
         }
     }
 
-    const bonus = numArr.map(tenBonus => tenBonus+10).reduce((sum,currentvalue)=> sum+currentvalue,0)
+    const bonus = scores.map(tenBonus => tenBonus+10).reduce((sum,currentvalue)=> sum+currentvalue,0)
     return bonus
 
 }

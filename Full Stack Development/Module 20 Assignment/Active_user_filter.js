@@ -1,14 +1,9 @@
-
 const filterActiveUsers = (users) =>{
     if(!Array.isArray(users) || users.length === 0){
         return "Invalid"
     }
 
     for(let user of users){
-        if (user === null || typeof user !== "object" || Array.isArray(user)) {
-            return "Invalid";
-        }
-
         const key = Object.keys(user)
         if(!key.includes("isActive")){
             return "Invalid"
