@@ -1,3 +1,7 @@
 "use strict";
-let z = 'laptop';
-console.log(z);
+const device = 'laptop';
+console.log(device);
+const fruit = 'mango';
+console.log(fruit);
+const point = 450;
+console.log(point);
