@@ -6,3 +6,6 @@ isArr2.push('apple');
 console.log(isArr2);
 let isArr3 = [69, 89, 99, 199, 299];
 console.log(isArr3);
+//fixed size arrey
+let isArr4 = ['Mango', 999];
+console.log(isArr4);
