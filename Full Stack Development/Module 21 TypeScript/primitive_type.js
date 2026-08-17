@@ -14,6 +14,8 @@ let isNull = null;
 console.log(isNull);
 let isUndefined;
 console.log(isUndefined);
+let isNo;
+console.log(isNo);
 // do not use this :any method its accept all type value 
 let isAny = "ich liebe dish";
 isAny = 45632;

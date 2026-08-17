@@ -21,6 +21,8 @@ console.log(isNull);
 let isUndefined:undefined  ;
 console.log(isUndefined)
 
+let isNo:undefined;
+console.log(isNo);
 
 
 // do not use this :any method its accept all type value 
