@@ -1,0 +1,20 @@
+"use strict";
+let isName = 'Marjan';
+console.log(isName);
+let isNumber = 456;
+isNumber = 45;
+console.log(isNumber);
+let isDecimal = 45.2365;
+console.log(isDecimal);
+let negativeNumber = -45;
+console.log(negativeNumber);
+let isBoolean = true;
+console.log(isBoolean);
+let isNull = null;
+console.log(isNull);
+let isUndefined;
+console.log(isUndefined);
+// do not use this :any method its accept all type value 
+let isAny = "ich liebe dish";
+isAny = 45632;
+console.log(isAny);
