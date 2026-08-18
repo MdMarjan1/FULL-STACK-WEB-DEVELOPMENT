@@ -1,4 +1,4 @@
-type products = {
+type Products = {
   name: string;
   role: number;
   group: string;
@@ -6,7 +6,7 @@ type products = {
 };
 
 
-const tamim: products[] = [
+const tamim: Products[] = [
   {
     name: 'marjan',
     role: 450,
@@ -15,7 +15,7 @@ const tamim: products[] = [
   },
 ];
 
-const rifat: products[] = [
+const rifat: Products[] = [
       {
     name: 'amjad',
     role: 450,
@@ -24,7 +24,7 @@ const rifat: products[] = [
   },
 ]
 
-const wasim: products[] = [
+const wasim: Products[] = [
     {
         name: 'trinas',
         role: 45,
