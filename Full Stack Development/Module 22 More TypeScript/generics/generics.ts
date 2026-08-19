@@ -53,3 +53,4 @@ function getHight<T>(arrey: T[]):number{
 const ioi = getHight<number>([45, 56, 66, 48, 966, 100])
 console.log(ioi);
 
+
