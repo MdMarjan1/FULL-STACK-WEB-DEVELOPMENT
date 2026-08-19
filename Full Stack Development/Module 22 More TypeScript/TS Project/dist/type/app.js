@@ -1,16 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const robin = {
-    name: 'marjan',
+    name: "marjan",
     role: 45,
     id: 456,
-    note: 455
+    note: 455,
 };
 const rakib = {
-    name: 'mijan',
+    name: "mijan",
     role: 456,
     id: 45,
-    note: 789
+    note: 789,
 };
 const alvi = {
     name: "wasim",
