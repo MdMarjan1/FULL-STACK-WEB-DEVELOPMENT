@@ -1,5 +1,5 @@
-type valu = "red" | "yellow" | "green"
-const getTrafficAction = (light: valu):string =>{
+type Valu = "red" | "yellow" | "green"
+const getTrafficAction = (light: Valu):string =>{
     if(light === "red"){
         return `Stop`;
     }
