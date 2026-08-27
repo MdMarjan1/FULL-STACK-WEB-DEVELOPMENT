@@ -9,4 +9,8 @@ const isInfo = (nummer, rate, name) => {
     return `number arrey ${nummer} price ${rate} name ${name}`;
 };
 console.log(isInfo([52, 42, 12, 12], 450, 'Omar faruk'));
+const IsNm = (fristName, lastName) => {
+    return `Hi my Fristname ${fristName} & lastName ${lastName}`;
+};
+console.log(IsNm('Proma', 'Bapery'));
 //# sourceMappingURL=fristFunction.js.map
