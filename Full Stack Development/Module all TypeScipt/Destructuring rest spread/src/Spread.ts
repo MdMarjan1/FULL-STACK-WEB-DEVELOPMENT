@@ -1,0 +1,38 @@
+
+/*
+Rest Operator ...
+কখন ব্যবহার হয়?
+👉 যখন অনেকগুলো value-কে একসাথে collect করে একটি array/object বানাতে চাও।
+*/
+const total = (...numbers: number[]) =>{
+    const final = numbers.reduce(
+        (sum , currentValue) => sum+currentValue,0);
+    return final;
+};
+
+console.log(total(41, 50, 60));
+
+// -------------------------------------------------------
+
+const device = {
+    nam: 'iPhone',
+    type: 'samsung',
+    price: 999,
+}
+
+const{nam, ...nextAll} = device
+console.log(nam, nextAll);
+
+
+
+
+/*
+Spread Operator ...
+কখন ব্যবহার হয়?
+👉 যখন কোনো array/object-এর ভিতরের value-গুলোকে ছড়িয়ে দিতে চাও।
+*/ 
+const numb1:number[] = [1,2,3,4,5];
+const numb2:number[] = [6, 7, 8]
+
+const allnumbers: number[] = [...numb1, ...numb2]
+console.log(allnumbers);
