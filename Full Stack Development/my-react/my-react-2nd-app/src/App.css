@@ -1,3 +1,11 @@
+.colors{
+  color:whitesmoke;
+  background-color: blueviolet;
+  margin: 7px;
+  border-radius: 15%;
+}
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
