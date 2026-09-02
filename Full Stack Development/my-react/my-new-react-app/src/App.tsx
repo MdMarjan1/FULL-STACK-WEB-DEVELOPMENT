@@ -35,11 +35,14 @@ function Sum(){
     <>
       <p>sum={4+5}</p>
       <p>sum</p>
-      <p>price={price}</p>
+      <p>price={price}</p>v
       
     </>
  )
 }
+
+
+
 
 export default App
 
