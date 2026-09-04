@@ -4,14 +4,26 @@ import Tasks from "./components/condition"
 import Terner from "./components/ternery"
 import Polixei from "./components/&&and"
 import Orrop from "./components/orreact"
+import Book from "./components/arreyMaping"
+import User from "./components/Users"
+
 
 
 
 
 
 function App(){
+  const books = ['Biology', 'chemistry', 'Math', 'HigherMath', 'bangla']
+
   return(
     <>
+    {
+      books.map(book => <Book name={book}></Book>)
+    }
+
+
+
+  
     <Todo task = "Practice Problem" time= "5.00"></Todo>
     <Todo task = "JavaScript" time= "7.12"></Todo>
     <Todo task = "python" time= "4.23"></Todo>
@@ -29,6 +41,11 @@ function App(){
     <Polixei present= {false} status="police2"></Polixei>
 
     <Orrop present= {true} status1="woman"></Orrop>
+
+
+
+
+    <User></User>
 
 
 
